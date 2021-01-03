@@ -1,10 +1,10 @@
 # Rock Paper Scissors Game Project
 ## General info
-* Project was inspired by The Odin Project and other student works
+* Project was inspired by The Odin Project
 * Author: Phong
 
 ## Technology
-Project is created wit
+Project is created with
 * Vanila, ES6 JavaScript 
 * HTML, CSS basics animation
 * Implementation of DOM and Event Listener in JavaScript
