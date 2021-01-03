@@ -1,0 +1,195 @@
+/* COLOR using
+#f4f4f4: white
+#f0a500: yello
+#cf7500: yellow dark
+#1a1c20: dark
+*/
+
+/* ======  body ===== */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 10px;
+    background-size: cover;
+    background-color: #1a1c20;
+    color: #f4f4f4;
+}
+
+.game-wrapper {
+    width: 100%;
+    margin: 0;
+    min-height: calc(100vh - 40px);
+}
+
+/* ======  HEADER ===== */
+header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    max-width: 50%;
+    max-height: 20%;
+    text-align: center;
+}
+
+.message {
+    font-size: 30px;
+    color: #28df99;
+    /* color: #ff7171; */
+}
+
+/* ======  NAV Bar ===== */
+nav {
+    display: block;
+    float: right;
+    margin-right: 80px;
+    font-size: 40px;
+}
+
+nav i {
+    cursor: pointer;
+}
+
+/* ======  MIDDLE CONTAINER ===== */
+.player-container {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player img {
+    width: 120px;
+    height: auto;
+}
+
+.player p {
+    font-size: 20px;
+    color: #f0a500;
+    text-align: center;
+    border: 1px solid #fcf8e8;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 10px;
+}
+
+
+/* ======  WEAPON SELECTION ===== */
+.selection-container {
+    margin-top: 50px;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.weapon {
+    width: 100px;
+    background-color: #f4f4f4;
+    color: #1a1c20;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 10px;
+    box-shadow: 5px 6px 1px #898b8a;
+    border-radius: 20px;
+    /* border-top: 3px solid #f4f4f4;
+    border-left: 3px solid #f4f4f4; */
+}
+
+.weapon:hover {
+    border-top: 0;
+    border-left: 0;
+    /* border-right: 3px solid #f4f4f4;
+    border-bottom: 3px solid #f4f4f4; */
+    box-shadow: 2px 4px 1px #898b8a;
+    transition: all 300ms ease;
+    transform: translate(5px, 2px);
+}
+
+
+/* .weapon:active {
+    background-color: #ffa45b;
+    box-shadow: 2px 5px #666;
+} */
+
+.weapon-clicked {
+    background-color: #c0e218;
+}
+
+.selection-container img {
+    width: 50px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.weapon p {
+    font-size: 20px;
+    font-size: 1000;
+    text-align: center;
+}
+
+/* ======  REFRESH ICON ===== */
+.refresh {
+    font-size: 30px;
+    display: block;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 35px;
+    color: #1a1c20;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px solid #e4e4e4;
+
+}
+
+.refresh:hover {
+    background-color: #1a1c20;
+    color: #f4f4f4;
+    box-shadow: 1px 2px 2px #e7e7de;
+    transition: all 400ms ease;
+}
+
+
+/* ======  FOOTER ===== */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #e7e7de;
+    margin-top: 50px;
+}
+
+footer li {
+    list-style-type: none;
+    display: flex;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: #8db596;
+    padding-left: 7px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #a3ddcb;
+    transition: all 400ms ease;
+}

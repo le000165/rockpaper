@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Phong RPC</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="game-wrapper">
+        <!-- Header title -->
+        <header>
+            <h1>Rock Paper Scissors</h1>
+            <h2>3 Weapons | 5 Lives | 2 Destinies</h2>
+            <p class="message">Let's do it</p>
+        </header>
+        <!-- middle container -->
+        <div class="player-container">
+            <div class="player">
+                <img src="./images/user.png" alt="player-logo">
+                <p class="player-score">Score: 0</p>
+            </div>
+            <div class="player">
+                <img src="./images/robot.png" alt="robot-logo">
+                <p class="robot-score">Score: 0</p>
+            </div>
+        </div>
+
+        <!-- user selection container  -->
+        <div class="selection-container">
+            <div class="weapon">
+                <p>Rock</p>
+                <img src="./images/rock.png" alt="rock-button">
+            </div>
+
+            <div class="weapon">
+                <p>Paper</p>
+                <img src="./images/paper.png" alt="paper-button">
+            </div>
+
+            <div class="weapon">
+                <p>Scissors</p>
+                <img src="./images/scissors.png" alt="scissors-button">
+            </div>
+        </div>
+
+        <!-- Reset game button -->
+        <div class="refresh">
+            <i class="fas fa-undo"></i>
+        </div>
+
+        <footer>
+            <li>Coded by <a href="https://le000165.github.io/mycv/">Phong</a></li>
+            <li>Inspired by <a href="https://www.theodinproject.com/">The Odin Project</a></li>
+        </footer>
+    </div>
+    <audio class="weapon-sound" src="sounds/zapsplat_multimedia_button_click_005_53866.mp3"></audio>
+    <audio class="win-sound" src="sounds/Cheering-SoundBible.com-1115515042.wav"></audio>
+    <audio class="lose-sound" src="sounds/Sad-SoundBible.com-759843766.wav"></audio>
+    <!-- JS scripts for game logic -->
+    <script src="myscripts.js"></script>
+</body>
+
+</html>
