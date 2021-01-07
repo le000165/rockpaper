@@ -2,6 +2,7 @@
 ## General info
 * Project was inspired by The Odin Project
 * Author: Phong
+*  Link project: https://le000165.github.io/rockpaper/
 
 ## Technology
 Project is created with
